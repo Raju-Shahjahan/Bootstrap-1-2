@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--  meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--CSS Links -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <title>Bootstrap Class-01 & 02</title>
+  </head>
+  <body>
+
+    <section class="menu">
+      <div class="container">
+        <div class="row text-center">
+          <h1 class="bg-info text-white">Menu</h1>
+          <ul class="list-inline">
+            <a href="£">  <li class="list-inline-item mx-3 text-danger"> HOME</li></a>
+            <a href="£">  <li class="list-inline-item mx-3">ABOUT</li></a>
+            <a href="£">  <li class="list-inline-item mx-3">SERVICE</li></a>
+            <a href="£">  <li class="list-inline-item mx-3">BLOG</li></a>
+            <a href="£">  <li class="list-inline-item mx-3">GALLERY</li></a>
+            <a href="£">  <li class="list-inline-item mx-3">CONTACT</li></a>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+
+   <section class="grid">
+     <div class="container-fluid">
+       <h1 class="text-center bg-info text-white">Grid system distribution(container-fluid)</h1>
+       <div class="row mb-4">
+
+         <div class="col-lg-5">
+           <div class="box"></div>
+         </div>
+         <div class="col-lg-5">
+           <div class="box"></div>
+         </div>
+         <div class="col-lg-2">
+           <div class="box"></div>
+         </div>
+       </div>
+
+      <div class="row mb-4">
+        <div class="col-lg-3">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-3">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="box"></div>
+        </div>
+      </div>
+     
+      </div>
+    </div>
+
+    <section class="flex">
+      <div class="container">
+        <h1 class="text-center bg-info text-white">Flex system distribution(container)</h1>
+        <div class="row mb-4">
+          <div class="col-lg"> <div class="box2"></div></div>
+          <div class="col-lg"> <div class="box2"></div></div>
+          <div class="col-lg"> <div class="box2"></div></div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-lg"> <div class="box2"></div></div>
+          <div class="col-lg"> <div class="box2"></div></div>
+          <div class="col-lg"> <div class="box2"></div></div>
+          <div class="col-lg"> <div class="box2"></div></div>
+          <div class="col-lg"> <div class="box2"></div></div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="typography">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center bg-info text-white">Typography</h1>
+            <div class="col-lg-12">
+              <p class="h1">This in paragraph text,but h1 style apply</p>
+              <p class="h2">This in paragraph text,but h2 style apply</p>
+              <p class="h3">This in paragraph text,but h3 style apply</p>
+              <p class="h4">This in paragraph text,but h4 style apply</p>
+              <p class="h5">This in paragraph text,but h5 style apply</p>
+              <p class="h6">This in paragraph text,but h6 style apply</p>
+            </div>
+
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+              <p class="display-1">This in paragraph text,but display-1 style apply</p>
+              <p class="display-2">This in paragraph text,but display-2 style apply</p>
+              <p class="display-3">This in paragraph text,but display-3 style apply</p>
+              <p class="display-4">This in paragraph text,but display-4 style apply</p>
+              <p class="display-5">This in paragraph text,but display-5 style apply</p>
+              <p class="display-6">This in paragraph text,but display-6 style apply</p>
+          </div>
+        </div>
+        <div class="row mb-3 text-center">
+          <div class="col-lg-12">
+            <p class="lead blockquote">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae dicta, veritatis quas, molestiae ipsam recusandae placeat dignissimos eaque repellat, ullam saepe magnam expedita earum cumque corporis facilis aperiam quae blanditiis obcaecati! Animi laborum placeat deleniti sed aperiam vero in dicta non magni repellendus! Nihil voluptatem labore distinctio. Nisi, ullam tempora!</p>
+            <p class="blockquote-footer">Minhaz Faisal</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+   
+   </section>
+     <div class="container">
+       <div class="row">
+        <h1 class="text-center bg-info text-white">Image</h1>
+         <div class="col-lg-6">
+          <div class="photo text-center">
+            <img src="./images/chemical.jpg" class="img-thumbnail" alt="">
+           </div>
+         </div>
+         <div class="col-lg-6">
+          <img src="./images/coffee.png" class="rounded img-thumbnail" alt="">
+         </div>
+
+
+         <figure class="figure">
+          <img src="./images/chemical.jpg" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption">This is caption for the above image.</figcaption>
+        </figure>
+
+       </div>
+     </div>
+   <section>
+
+    <h1 class="text-center bg-info text-white mb-5">Form</h1>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <form action="" method="">
+
+            <label for="name" class="h5">Your Name :</label>
+            <input type="text" id="name" class="name px-4" placeholder="Enter your full name">
+            <div class="valid-feedback">
+              Thats great!
+            </div>
+            <div class="invalid-feedback">
+              Please! enter your name
+            </div><br>
+
+
+            <label for="email" class="h5">Your E-mail :</label>
+            <input type="email" id="email" class="email px-4" placeholder="Enter your email here">
+            <div class="valid-feedback">
+              Thats great!
+            </div>
+            <div class="invalid-feedback">
+              Please! enter your valid email
+            </div><br>
+
+            <label for="password" class="h5">Password :</label>
+            <input type="password" id="password" class="password px-4" placeholder="Enter your password here">
+            <div class="valid-feedback">
+              Thats great!
+            </div>
+            <div class="invalid-feedback">
+              Please! enter your password
+            </div><br>
+
+
+            <label for="mobile" class="h5">Mobile :</label>
+            <input type="number" id="mobile" class="mobile px-4" placeholder="Enter your mobile number">
+            <div class="valid-feedback">
+              Thats great!
+            </div>
+            <div class="invalid-feedback">
+              Please! enter your mobile number.
+            </div><br>
+
+
+         
+            <div class="gender">
+              <label for="">Gender</label>
+              <div class="inner">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                  <label class="form-check-label" for="flexRadioDefault1">
+                   Male
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Female
+                  </label>
+                </div>
+              </div>
+            </div>
+      
+
+            <input type="submit" class="btn-check mx-5" id="btn-check-outlined" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btn-check-outlined">SUBMIT</label>
+
+            <input type="reset" class="btn-check" name="options-outlined" id="danger-outlined" autocomplete="off">
+            <label class="btn btn-outline-danger" for="danger-outlined">RESET</label>
+          </form>
+        </div>
+      </div>
+    </div>
+   
+  
+
+
+
+
+ 
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <!--JS Links-->
+    
+   <script src="./js/popper.min.js"></script>
+   <script src="./js/bootstrap.min.js"></script>
+   <script src="./js/script.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,22 @@
+.box{
+    min-height: 120px;
+    background: teal;
+}
+
+.box2{
+    min-height: 120px;
+    background: rgb(11, 250, 43);
+}
+
+/* .banner{
+    border: 1px solid black;
+}
+.container{
+    border: 2px solid blue;
+} */
+
+
+
+.photo img{
+    /* border: 1px solid red; */
+}
